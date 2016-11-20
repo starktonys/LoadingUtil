@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.stark.tony.loadingutil.MainActivity"
+    >
+
+  <Button
+      android:id="@+id/btn_show"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="显示对话框"
+      />
+
+  <Button
+      android:id="@+id/btn_hide"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="隐藏对话框"
+      />
+
+</RelativeLayout>
